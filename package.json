@@ -5,7 +5,7 @@
   "main": "./dist/y-prosemirror.cjs",
   "module": "./src/y-prosemirror.js",
   "type": "module",
-  "types": "./dist/src/y-prosemirror.d.ts",
+  "types": "./src/types/y-prosemirror.d.ts",
   "sideEffects": false,
   "funding": {
     "type": "GitHub Sponsors ❤",
@@ -23,7 +23,7 @@
   },
   "exports": {
     ".": {
-      "types": "./dist/src/y-prosemirror.d.ts",
+      "types": "./src/types/y-prosemirror.d.ts",
       "import": "./src/y-prosemirror.js",
       "require": "./dist/y-prosemirror.cjs"
     }
